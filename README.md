@@ -1,3 +1,3 @@
 # SpaceFlight
-Controls: WASD
+Controls: WASD\n
 Enjoy!
