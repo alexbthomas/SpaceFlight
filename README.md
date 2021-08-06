@@ -1,3 +1,2 @@
 # SpaceFlight
-Download ZIP, Extract All, Run main                                   
-Controls: WASD	
+My goal with this project was to practice and familiarize myself with the Pygame module. 
