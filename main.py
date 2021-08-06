@@ -33,11 +33,12 @@ asteroid_y_pos = random.randint(30, 850)
 asteroid_speed = 6
 asteroid_rect = asteroid_surface.get_rect(center=(asteroid_x_pos, asteroid_y_pos))
 
+#font
 font = pygame.font.Font(None, 74)
 GOLD = (255, 198, 0)
 
+#variables
 score = 0
-allySpawn = 1
 
 #game loop
 while True:
@@ -72,9 +73,11 @@ while True:
     bg_x_pos -= 3
     bg2_x_pos -= 3
     
-    #asteroid settings
+    #asteroid rect
     asteroid_x_pos -= asteroid_speed
     asteroid_rect = asteroid_surface.get_rect(center=(asteroid_x_pos, asteroid_y_pos))
+    
+    #ship rect
     ship_rect = ship_surface.get_rect(center=(ship_x_pos, ship_y_pos))
     
     #score text
